@@ -16,6 +16,11 @@ int main()
 		return a+b;
 	}
 
+	int comp_less( int a, int b, int result )
+	{
+		result = ( a < b );
+		return result;
+	}
 
 	printf("test for new branch");
 	
