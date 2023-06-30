@@ -31,6 +31,13 @@ int main()
 		return result;
 	}
 
+
+	int comp_equal( int a, int b, int result )
+	{
+		result = ( a == b );
+		return result;
+	}
+
 	printf("test for new branch");
 	
 	printf(" add another sentence ");
