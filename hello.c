@@ -12,6 +12,7 @@ int main()
 
 	int add( int a, int b )
 	{
+		printf( "input a and b" );
 		return a+b;
 	}
 
