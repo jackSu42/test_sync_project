@@ -9,6 +9,15 @@ int main()
 		return a*b;
 	}
 	
+	
+
+
+	int comp_more( int a, int b, int result )
+	{
+		result = b < a;
+		return result;
+	}
+
 	printf("test for new branch");
 	printf(" add another sentence ");
 	printf( "hello world" );
